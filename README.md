@@ -24,7 +24,7 @@ Cursor cursir = getContentResolver().query(
 ```
 参数：
 
-![](https://github.com/sunlianglong/ContentResolver/Img/ContentResolver.png)  
+![](https://github.com/sunlianglong/ContentResolver/Img/contentResolver.png)  
 
 查询完之后，将数据从Cursor对象中逐个取出来：通过**移动游标的位置**来遍历Cursor的所有行，再取出每一行的数据
 
